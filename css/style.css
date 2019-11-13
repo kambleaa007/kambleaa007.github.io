@@ -45,6 +45,7 @@ Responsive media queries
     background: url('../img/bg-banner03.jpg') no-repeat fixed;
     background-size: cover;
     min-height: 630px;
+    
     position: relative;
 }
 .navbar-default {
@@ -123,7 +124,10 @@ Responsive media queries
 #about{
 	background: url('../img/about-banner.jpg') no-repeat;
 	background-size: cover;
-	margin-bottom: -3px;
+    margin-bottom: -3px;
+    
+    background-attachment: fixed;
+
 }
 .section-padding{
 	padding: 60px 0px;
