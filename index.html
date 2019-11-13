@@ -18,9 +18,20 @@
   <link rel="stylesheet" type="text/css" href="css/attitude.css">
 
   
+
+  <!--
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/materialize.min.js"></script>
+  <link rel="stylesheet" href="./css/materialize.min.css">
+  <script src="./js/textToSpeech.js"></script>
+   -->
+  
+  <script src='./js/responsivevoice.js'></script>
+
+
 </head>
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" onload="myFunction()">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" onload="">
   <div class="header">
     <div class="bg-color">
       <header id="main-header">
@@ -80,6 +91,39 @@
             <p>&nbsp;</p>
             <p> I’m truly passionate about my work and always eager to learn hands on with new technologies. While I enjoy all aspects of my work, I think my favourite stage of a work is interacting with the client or business unit leader to understand his or her business objectives. As we go through that collaborative process, the ideas start to flow and that’s always the fun part to start them implemented using computer science technology.</p>
             <p>&nbsp;</p>
+
+            <audio controls>
+                <source src="horse.ogg" type="audio/ogg">
+                <source src="horse.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+              </audio>
+              
+            <a href="#" id="speak" onclick="textTo()" class="waves-effect waves-light btn">Speak</a>
+            <audio></audio>
+            <p>&nbsp;</p>
+            <script>
+              function textTo() {
+                console.log("CLICKCKCKCKCKKC");
+                responsiveVoice.speak('I’m truly passionate about my work and always eager to');
+
+                //$('#speak').click(function(){
+                var text = `I’m truly passionate about my work and always eager to learn hands on with new technologies. While I enjoy all aspects of my work, I think my favourite stage of a work is interacting with the client or business unit leader to understand his or her business objectives. As we go through that collaborative process, the ideas start to flow and that’s always the fun part to start them implemented using computer science technology.`;
+                
+                var msg = new SpeechSynthesisUtterance();
+                console.log(msg);
+                var voices = window.speechSynthesis.getVoices();
+                msg.voice = voices[10];
+                msg.voiceURI = "native";
+                msg.volume = 10;
+                msg.rate = 10;
+                msg.pitch = 0.8;
+                msg.lang = 'en-US';
+                msg.text = text;
+
+                speechSynthesis.speak(msg);
+                //})
+            };
+            </script>
             <ul class="abt-list">
               <li>- I have an Computer Science Degree from Pune University at Sinhgad College Of Engineering.</li>
               <li>- I’m always interested in hearing from former colleagues, managers, or just interesting creative folk.</li>
@@ -301,7 +345,6 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery.easing.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.bxslider.min.js"></script>
   <script src="js/wow.js"></script>
   <script src="js/custom.js"></script>
   <script src="contactform/contactform.js"></script>
