@@ -27,7 +27,8 @@
    -->
   
   <script src='./js/responsivevoice.js'></script>
-
+  <script>!function(e,t,a){var c=e.head||e.getElementsByTagName("head")[0],n=e.createElement("script");n.async=!0,n.defer=!0, n.type="text/javascript",n.src=t+"/static/js/chat_widget.js?config="+JSON.stringify(a),c.appendChild(n)}(document,"https://app.engati.com",{bot_key:"eff6409398144590",welcome_msg:true,branding_key:"default",server:"https://app.engati.com",e:"p" });</script>
+          
 
 </head>
 
@@ -84,6 +85,14 @@
           <h2 class="title-text">
             Meet<br><span class="deco">Ashish</span> Kamble
           </h2>
+          <!--
+            <iframe 
+            src="https://app.engati.com/static/standalone/bot.html?bot_key=eff6409398144590"
+            style="border: 0; width: 100%; height: 100%; "
+          >
+          </iframe>
+          -->
+          
         </div>
         <div class="col-md-6 text-left">
           <div class="about-text">
@@ -95,7 +104,7 @@
             <audio controls>
                 <source src="https://raw.githubusercontent.com/kambleaa007/kambleaa007.github.io/master/assets/THREE_LITTLE_BIRDS.mp3" type="audio/mpeg">
                 Your browser does not support the audio tag.
-              </audio>
+            </audio>
 
             <a href="#" id="speak" onclick="textTo()" class="waves-effect waves-light btn">Speak</a>
             <audio></audio>
