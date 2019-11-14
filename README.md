@@ -29,7 +29,16 @@ Always stay humble!! Good luck everyone. Let me know If I can help you in any wa
 
 The older I get, the more I believe that the only way to become a better programmer is by not programming.
 
-
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
 Commands on terminal
 `
 ashu@ashu-inspiron-3521:~$ cd git/
