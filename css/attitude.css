@@ -60,8 +60,8 @@
     font-weight: bolder;
     line-height: 20px;
 
-    color: #fff;
-    text-shadow: 3px 2px black;
+    color: red;
+    text-shadow: 3px 2px white;
   }
 
   .parallax-about {
