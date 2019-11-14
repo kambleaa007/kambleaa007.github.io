@@ -88,7 +88,7 @@ SpringMvcStepByStep
 test
 WebEmp
 website
-ashu@ashu-inspiron-3521:~/git$ cd website/
+ashu@ashu-inspiron-3521:~/git$$ cd website/
 ashu@ashu-inspiron-3521:~/git/website$ ls
 ashu  Laura.zip
 ashu@ashu-inspiron-3521:~/git/website$ echo "# website" >> README.md
