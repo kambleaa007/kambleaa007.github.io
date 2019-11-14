@@ -54,6 +54,13 @@
 
     text-shadow: 3px 2px red;
   }
+  .attitude-bottom {
+
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    
+  }
 
   .parallax-about {
     /* The image used */
