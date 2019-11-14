@@ -91,6 +91,8 @@
             style="border: 0; width: 100%; height: 100%; "
           >
           </iframe>
+
+          <a href="#" id="speak" onclick="textTo()" class="waves-effect waves-light btn">Speak</a>
           -->
           
         </div>
@@ -105,9 +107,7 @@
                 <source src="https://raw.githubusercontent.com/kambleaa007/kambleaa007.github.io/master/assets/THREE_LITTLE_BIRDS.mp3" type="audio/mpeg">
                 Your browser does not support the audio tag.
             </audio>
-
-            <a href="#" id="speak" onclick="textTo()" class="waves-effect waves-light btn">Speak</a>
-            <audio></audio>
+            
             <p>&nbsp;</p>
             <script>
               function textTo() {
@@ -155,11 +155,11 @@
       </div>
     </div>
   </section>
-  <section id="portfolio" class="section-padding wow fadeInUp delay-05s">
+  <section id="portfolio" class="section-padding wow fadeInUp delay-05s parallax-portfolio" style="height: 100%;">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="title text-center">Let's <span class="deco">See</span> My Work</h2>
+          <h2 style="color: #fff;" class="title text-center">Let's <span class="deco">See</span> My Work</h2>
         </div>
         <div class="col-md-4">
           <a href="https://kambleaa007.github.io/Creation/">
@@ -210,15 +210,20 @@
 
     </div>
   </section>
-  <section id="Attitude" class="section-padding wow fadeIn delay-05s parallax-attitude attitude-text">
+  <section id="Attitude" class="section-padding wow fadeIn delay-05s parallax-attitude attitude-text " style="height: 100%;">
     <div class="wrapper parallax-attitude">
       <div class="container parallax-attitude">
         <div class="row ">
             <div class="col-md-12">
               <h2 class="title text-center">Let's <span class="deco">See Your Attitude </span></h2>
               <div class="text-center animated bounce infinite slow">
-                <p>Work on the latest technologies.</p>
-                <p>Attend meetups like dev-days(by Amazon), GDP(by Google) etc.</p>
+                  <marquee width="60%" direction="right" height="100px">
+                      <p>Work on the latest technologies.</p>
+                  </marquee>
+                  <marquee width="60%" direction="left" height="100px">
+                      <p>Attend meetups like dev-days(by Amazon), GDP(by Google) etc.</p>
+                  </marquee>
+                
                 <p>Always keep giving interviews, it will keep u prepared.</p>
                 <p>Keep working on communication skills.</p>
                 <p>Maintain active GitHub and if possible stack overflow.</p>
@@ -244,25 +249,52 @@
       </div>
     </div>
   </section>
-  <section id="testimonial" class="section-padding wow fadeInUp">
+  <section id="testimonial" class="section-padding wow fadeInUp parallax-testimonial" style="height: 100%;">
     <div class="container">
       <div class="row">
-        <h2 class="title text-center">See What Our <span class="deco">Client</span> Are Saying ?</h2>
+        <h2 style="color:#ff0000;" class="title text-center ">See What Our <span class="deco">Client</span> Are Saying ?</h2>
         <div class="test-sec">
           <div class="col-sm-4">
             <blockquote>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamsed commodo nibh ante facilisis bibendum dolor feugiat at. </p>
+              <p>“You are one of our VERY best clients to be perfectly honest…you’ve helped make our team very successful, Stacy and Co., and we love working with you all. You guys are SO incredibly organized and professional…trust me…I see it all…and you definitely stand OUT in this industry.” </p>
             </blockquote>
             <div class="carousel-info">
-              <div class="pull-left"> <span class="testimonials-name">John Doe</span> <span class="testimonials-post">CEO,  Company Inc.</span> </div>
+              <div class="pull-left"> <span class="testimonials-name">- Preferred Vendor</span> <span class="testimonials-post">CEO,  Company Inc.</span> </div>
             </div>
           </div>
           <div class="col-sm-4">
             <blockquote>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamsed commodo nibh ante facilisis bibendum dolor feugiat at. </p>
+              <p>“Your team was always in my corner, especially when it mattered. You handled all the curve balls and made the prospect of my first home a reality. I have nothing, but positive things to say about everyone I worked with at Catalyst. It really made a process that seemed scary to a first time home buyer manageable. Thank you so much.” </p>
             </blockquote>
             <div class="carousel-info">
-              <div class="pull-left"> <span class="testimonials-name">John Doe</span> <span class="testimonials-post">CEO,  Company Inc.</span> </div>
+              <div class="pull-left"> <span class="testimonials-name">- Brad</span> <span class="testimonials-post">CEO,  Company Inc.</span> </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <blockquote>
+              <p>“I can’t thank you enough for all your hard work and taking the time to make sure everything was perfect. You are truly amazing at what you do and provide by far the best customer service possible.” </p>
+            </blockquote>
+            <div class="carousel-info">
+              <div class="pull-left"> <span class="testimonials-name">- Randy Sisson</span> <span class="testimonials-post">CEO,  Company Inc.</span> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="row test-sec">
+          <div class="col-sm-4">
+            <blockquote>
+              <p>“Thank you so much! You guys made everything so easy. I appreciate all your hard work!” </p>
+            </blockquote>
+            <div class="carousel-info">
+              <div class="pull-left"> <span class="testimonials-name">- Valerie Kunz Hay</span> <span class="testimonials-post">CEO,  Company Inc.</span> </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <blockquote>
+              <p>“Thank you so much for all your help and assistance during this crazy, emotional and absolutely wonderful journey! We are so very impressed!!” </p>
+            </blockquote>
+            <div class="carousel-info">
+              <div class="pull-left"> <span class="testimonials-name">- Laura Miller</span> <span class="testimonials-post">CEO,  Company Inc.</span> </div>
             </div>
           </div>
           <div class="col-sm-4">
@@ -274,7 +306,7 @@
             </div>
           </div>
         </div>
-      </div>
+      
     </div>
   </section>
   <section id="contact" class="section-padding wow fadeIn delay-05s">

@@ -13,6 +13,37 @@
     
   }
 
+  .parallax-testimonial {
+    /* The image used */
+    background-image: url("../img/testimonial-banner.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+
+  .parallax-portfolio {
+    /* The image used */
+    background-image: url("../img/WorkDone.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
   .attitude-text {
 
     color: #fff;
