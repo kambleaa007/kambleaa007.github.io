@@ -228,8 +228,17 @@ Always stay humble!! Good luck everyone. Let me know If I can help you in any wa
 
 
 
-
-
+To Do-
+·         Azure DevOps development processes for Continuous Integration and Continuous Delivery (CI/CD).
+·         Understands build tools and configurations (e.g. Azure Pipelines, Jenkins) for setting up an automated build Azure workflow.
+·         Integration knowledge with tools such as GIT (Azure DevOps), Maven and Azure Artifacts with Jenkins.
+·         Hands-on experience on Azure Cloud Services such as Azure Kubernetes Service ( (AKS), Azure App Services, Azure Cloud Service
+·         Hands on experience with Azure Resource Manager (ARM) templates, Azure Automation
+·         Implementation of Azure Kubernetes Service (AKS) and WebApp for release pipeline.
+·         Knowledge of multiple source control systems including GIT providers like VSTS (Azure DevOps), GitLab and TeamForge.
+:
+·         Good knowledge of Shell and Groovy scripts for implementing build deployment scripts in Jenkins
+·         Knowledge of Kubernetes, Istio and Docker
 
 
 
