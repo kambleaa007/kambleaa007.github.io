@@ -1,5 +1,6 @@
 # website
 
+
 Let's See Your Attitude
 
 Work on the latest technologies.
@@ -28,18 +29,10 @@ Always stay humble!! Good luck everyone. Let me know If I can help you in any wa
 
 The older I get, the more I believe that the only way to become a better programmer is by not programming.
 
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
+
 Commands on terminal
 `
+
 ashu@ashu-inspiron-3521:~$ cd git/
 ashu@ashu-inspiron-3521:~/git$ mkdir website
 mkdir: cannot create directory ‘website’: File exists
@@ -198,6 +191,12 @@ ashu@ashu-inspiron-3521:~/git/website/kambleaa007.github.io$ git commit -m "Init
 ashu@ashu-inspiron-3521:~/git/website/kambleaa007.github.io$ ^C
   ashu@ashu-inspiron-3521:~/git/website/kambleaa007.github.io\$
   `
+=======
+ashu@ashu-inspiron-3521:~/git/website/kambleaa007.github.io$ 
+`
+
+
+
 
 go to directory by cd cmd...........
 
@@ -225,3 +224,4 @@ make the changes ( using any editor) then do........
 3. commit
 
 > > > git commit -m "Initial commit"
+
