@@ -2,7 +2,6 @@
 
 Let's See Your Attitude
 
-
 Work on the latest technologies.
 
 Attend meetups like dev-days(by Amazon), GDP(by Google) etc.
@@ -90,36 +89,37 @@ WebEmp
 website
 ashu@ashu-inspiron-3521:~/git$$ cd website/
 ashu@ashu-inspiron-3521:~/git/website$ ls
-ashu  Laura.zip
+ashu Laura.zip
 ashu@ashu-inspiron-3521:~/git/website$ echo "# website" >> README.md
 ashu@ashu-inspiron-3521:~/git/website$ git init
 Initialized empty Git repository in /home/ashu/git/website/.git/
 ashu@ashu-inspiron-3521:~/git/website$ git add README.md
 ashu@ashu-inspiron-3521:~/git/website$ git commit -m "first commit"
 [master (root-commit) 611df5d] first commit
- 1 file changed, 1 insertion(+)
- create mode 100644 README.md
+1 file changed, 1 insertion(+)
+create mode 100644 README.md
 ashu@ashu-inspiron-3521:~/git/website$ git remote add origin https://github.com/kambleaa007/website.git
 ashu@ashu-inspiron-3521:~/git/website$ git push -u origin master
 Username for 'https://github.com': kambleaa007
-Password for 'https://kambleaa007@github.com': 
+Password for 'https://kambleaa007@github.com':
 Counting objects: 3, done.
 Writing objects: 100% (3/3), 221 bytes | 0 bytes/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/kambleaa007/website.git
- * [new branch]      master -> master
-Branch master set up to track remote branch master from origin.
-ashu@ashu-inspiron-3521:~/git/website$ ls
+
+- [new branch] master -> master
+  Branch master set up to track remote branch master from origin.
+  ashu@ashu-inspiron-3521:~/git/website$ ls
 ashu  Laura  Laura.zip  README.md
 ashu@ashu-inspiron-3521:~/git/website$ cd..
-cd..: command not found
-ashu@ashu-inspiron-3521:~/git/website$ cd .
+  cd..: command not found
+  ashu@ashu-inspiron-3521:~/git/website$ cd .
 ashu@ashu-inspiron-3521:~/git/website$ ..
-..: command not found
-ashu@ashu-inspiron-3521:~/git/website$ cd ./
+  ..: command not found
+  ashu@ashu-inspiron-3521:~/git/website$ cd ./
 ashu@ashu-inspiron-3521:~/git/website$ cd...
-cd...: command not found
-ashu@ashu-inspiron-3521:~/git/website$ cd.
+  cd...: command not found
+  ashu@ashu-inspiron-3521:~/git/website$ cd.
 No command 'cd.' found, did you mean:
  Command 'cdw' from package 'cdw' (universe)
  Command 'cdi' from package 'cdo' (universe)
@@ -131,20 +131,20 @@ No command 'cd.' found, did you mean:
  Command 'cde' from package 'cde' (universe)
 cd.: command not found
 ashu@ashu-inspiron-3521:~/git/website$ cd
-ashu@ashu-inspiron-3521:~$ cd git/
+  ashu@ashu-inspiron-3521:~$ cd git/
 ashu@ashu-inspiron-3521:~/git$ cd website/
-ashu@ashu-inspiron-3521:~/git/website$ git clone https://github.com/kambleaa007/kambleaa007.github.io
+  ashu@ashu-inspiron-3521:~/git/website$ git clone https://github.com/kambleaa007/kambleaa007.github.io
 Cloning into 'kambleaa007.github.io'...
 Username for 'https://github.com': kambleaa007
 Password for 'https://kambleaa007@github.com': 
 remote: Repository not found.
 fatal: repository 'https://github.com/kambleaa007/kambleaa007.github.io/' not found
 ashu@ashu-inspiron-3521:~/git/website$ git clone https://github.com/kambleaa007/kambleaa007.github.io
-Cloning into 'kambleaa007.github.io'...
-warning: You appear to have cloned an empty repository.
-ashu@ashu-inspiron-3521:~/git/website$ cd kambleaa007.github.io/
+  Cloning into 'kambleaa007.github.io'...
+  warning: You appear to have cloned an empty repository.
+  ashu@ashu-inspiron-3521:~/git/website$ cd kambleaa007.github.io/
 ashu@ashu-inspiron-3521:~/git/website/kambleaa007.github.io$ git add --all
-ashu@ashu-inspiron-3521:~/git/website/kambleaa007.github.io$ git commit -m "Initial commit"
+  ashu@ashu-inspiron-3521:~/git/website/kambleaa007.github.io$ git commit -m "Initial commit"
 [master (root-commit) 5f66c74] Initial commit
  26 files changed, 7242 insertions(+)
  create mode 100644 Readme.txt
@@ -174,32 +174,30 @@ ashu@ashu-inspiron-3521:~/git/website/kambleaa007.github.io$ git commit -m "Init
  create mode 100644 js/jquery.min.js
  create mode 100644 js/wow.js
 ashu@ashu-inspiron-3521:~/git/website/kambleaa007.github.io$ git push -u origin master
-Username for 'https://github.com': kambleaa007
-Password for 'https://kambleaa007@github.com': 
-Counting objects: 33, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (33/33), done.
-Writing objects: 100% (33/33), 1.43 MiB | 58.00 KiB/s, done.
-Total 33 (delta 0), reused 0 (delta 0)
-To https://github.com/kambleaa007/kambleaa007.github.io
- * [new branch]      master -> master
-Branch master set up to track remote branch master from origin.
-ashu@ashu-inspiron-3521:~/git/website/kambleaa007.github.io$ ^C
+  Username for 'https://github.com': kambleaa007
+  Password for 'https://kambleaa007@github.com':
+  Counting objects: 33, done.
+  Delta compression using up to 4 threads.
+  Compressing objects: 100% (33/33), done.
+  Writing objects: 100% (33/33), 1.43 MiB | 58.00 KiB/s, done.
+  Total 33 (delta 0), reused 0 (delta 0)
+  To https://github.com/kambleaa007/kambleaa007.github.io
+- [new branch] master -> master
+  Branch master set up to track remote branch master from origin.
+  ashu@ashu-inspiron-3521:~/git/website/kambleaa007.github.io$ ^C
 ashu@ashu-inspiron-3521:~/git/website/kambleaa007.github.io$ git add --allashu@ashu-inspiron-3521:~/git/website/kambleaa007.github.io$ git push -u origin master
 Username for 'https://github.com': kambleaa007
 Password for 'https://kambleaa007@github.com': 
 Branch master set up to track remote branch master from origin.
 Everything up-to-date
 ashu@ashu-inspiron-3521:~/git/website/kambleaa007.github.io$ git commit -m "Initial commit"
-On branch master
-Your branch is up-to-date with 'origin/master'.
-nothing to commit, working tree clean
+  On branch master
+  Your branch is up-to-date with 'origin/master'.
+  nothing to commit, working tree clean
+  ashu@ashu-inspiron-3521:~/git/website/kambleaa007.github.io$ ^C
 ashu@ashu-inspiron-3521:~/git/website/kambleaa007.github.io$ ^C
-ashu@ashu-inspiron-3521:~/git/website/kambleaa007.github.io$ ^C
-ashu@ashu-inspiron-3521:~/git/website/kambleaa007.github.io$ 
-`
-
-
+  ashu@ashu-inspiron-3521:~/git/website/kambleaa007.github.io\$
+  `
 
 go to directory by cd cmd...........
 
@@ -207,34 +205,23 @@ already cloned project..........
 
 make the changes ( using any editor) then do........
 
-1) add --all
+### Staging
 
->>>git add --all
+1. add --all
 
+> > > git add --all
+> > > git add .
+> > > git add \*
+> > > git add filename
 
+### push
 
-2) push
+2. push
 
->>>git push -u origin master
+> > > git push -u origin master
 
+### commit
 
+3. commit
 
-3) commit
-
->>>git commit -m "Initial commit"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+> > > git commit -m "Initial commit"
