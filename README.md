@@ -9,6 +9,7 @@
 ## Getting Started
 
 :memo:
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
@@ -37,22 +38,26 @@ cd project
 ## Contributing
 
 :memo:
-Please read [CONTRIBUTING.md](https://github.com/kambleaa007/AshITech/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+Please read [CONTRIBUTING.md](https://github.com/kambleaa007/AshITech/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.  
 [![stackoverflow](https://img.shields.io/badge/stackoverflow%20reputation-1100-yellow)](https://img.shields.io/badge/stackoverflow%20reputation-1100-yellow)
 
 ## Versioning
 
 :memo:
+
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/kambleaa007/kambleaa007.github.io/releases/tag/v1.0).
 
 ## Authors
 
 :memo:
+
 See also the list of [contributors](https://github.com/kambleaa007/kambleaa007.github.io/graphs/contributors) [contributors](https://github.com/kambleaa007/kambleaa007.github.io/blob/master/CONTRIBUTING.md) who participated in this project.
 
 ## License
 
 :memo:
+
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/kambleaa007/kambleaa007.github.io/blob/master/LICENSE) file for details
 
 ## Acknowledgments
