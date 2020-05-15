@@ -4,7 +4,7 @@
 
 ## :point_right: Website Lives at https://kambleaa007.github.io/
 
-###### {Pure HTML and CSS}
+##### {Pure HTML and CSS}
 
 ## Getting Started
 
@@ -14,9 +14,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 :writing_hand: What things you need to install the software and how to install them
 
-windows cmd powershell, linux terminal, mac terminal [![Platforms](https://img.shields.io/badge/platform-linux--64%20%7C%20win--32%20%7C%20osx--64%20%7C%20win--64-lightgrey)](https://img.shields.io/badge/platform-linux--64%20%7C%20win--32%20%7C%20osx--64%20%7C%20win--64-lightgrey)
+Windows, Linux, Mac OS  
+[![Platforms](https://img.shields.io/badge/platform-linux--64%20%7C%20win--32%20%7C%20osx--64%20%7C%20win--64-lightgrey)](https://img.shields.io/badge/platform-linux--64%20%7C%20win--32%20%7C%20osx--64%20%7C%20win--64-lightgrey)
 
-chrome or any browser with react redux DevTools addOns plugins [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
+Google Chrome or Any other Browser  
+[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 
 ### Installing
 
@@ -36,15 +38,15 @@ Please read [CONTRIBUTING.md](https://github.com/kambleaa007/AshITech/blob/maste
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/kambleaa007/kambleaa007.github.io/releases/tag/v1.0).
 
 ## Authors
 
-See also the list of [contributors](https://github.com/kambleaa007/AshITech/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/kambleaa007/kambleaa007.github.io/graphs/contributors) [contributors](https://github.com/kambleaa007/kambleaa007.github.io/blob/master/CONTRIBUTING.md) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/kambleaa007/AshITech/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/kambleaa007/kambleaa007.github.io/blob/master/LICENSE) file for details
 
 ## Acknowledgments
 
