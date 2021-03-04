@@ -139,6 +139,24 @@ Responsive media queries
 .banner-text h2 span {
   font-family: "Satisfy", cursive;
 }
+
+.banner-text:hover {
+  animation: show .8s linear forwards;
+}
+@keyframes show {
+  93% {
+    color: transparent;
+  }
+  94% {
+    color: white;
+  }
+  100% {
+    color: white;
+  }
+}
+
+
+
 .overlay-detail {
   margin: 0 auto;
 }

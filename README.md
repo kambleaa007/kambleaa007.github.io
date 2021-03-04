@@ -35,6 +35,9 @@ The steps will be
 ```
 git clone
 cd project
+
+npm i -g serve
+serve
 ```
 
 ## Contributing
